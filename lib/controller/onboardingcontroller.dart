@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pro2flu/data/datasource/static/dateofOnboarding.dart';
-import 'package:pro2flu/view/screens/mainpage.dart';
+import 'package:pro2flu/view/screens/homepage.dart';
+// import 'package:pro2flu/view/screens/mainpage.dart';
 
 class OnboardingController extends GetxController {
   late PageController pageController;
@@ -9,7 +10,7 @@ class OnboardingController extends GetxController {
   next() {
     numberpage++;
     if (numberpage > onBoardingList.length - 1) {
-      Get.off(Mainpage());
+      Get.off(Homepage());
     } else {
       pageController.animateToPage(numberpage,
           duration: const Duration(milliseconds: 900), curve: Curves.easeOut);

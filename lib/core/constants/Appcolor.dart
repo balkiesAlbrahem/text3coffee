@@ -8,6 +8,7 @@ class AppColor {
   static const Color white = Colors.white;
    static const Color black= Colors.black;
     static const Color grayy= Color.fromARGB(255, 192, 188, 184);
+    static const Color deepgray= Color.fromARGB(255, 135, 134, 133);
   // background: #38220F;
 
 }

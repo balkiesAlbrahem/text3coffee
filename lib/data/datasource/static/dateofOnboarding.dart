@@ -15,3 +15,41 @@ List<OnboardingModel> onBoardingList = [
         "Discover your perfect brew to keep you sharp\nand energized. Explore our menu with a variety\n of coffee options.",
   ),
 ];
+ // TabBar(
+      //                     tabs: taps
+      //                         .map((text) => Tab(
+      //                               child: Padding(
+      //                                 padding: const EdgeInsets.only(left: 0),
+      //                                 child: Text(
+      //                                   text,
+      //                                   // style: TextStyle(
+      //                                   //   fontSize: 16,
+      //                                   //   fontWeight: FontWeight.w600,
+      //                                   // ),
+      //                                 ),
+      //                               ),
+      //                             ))
+      //                         .toList(),
+      //                     indicator: BoxDecoration(
+      //                       shape: BoxShape.circle, // يجعل النقطة دائرية
+      //                       color: Colors.black, // لون النقطة
+      //                     ),
+      //                     indicatorSize:
+      //                         TabBarIndicatorSize.label, // تطابق حجم النص
+      //                     labelColor: Colors.black, // لون النص المفعل
+      //                     unselectedLabelColor:
+      //                         Colors.grey, // لون النص غير المفعل
+      //                   ),
+      //                   Expanded(
+      //                     child: TabBarView(
+      //                       children: taps
+      //                           .map((text) => Center(
+      //                                 child: Text(
+      //                                   "صفحة $text",
+      //                                   style: TextStyle(fontSize: 24),
+      //                                 ),
+      //                               ))
+      //                           .toList(),
+      //                     ),
+      //                   ),
+                     
